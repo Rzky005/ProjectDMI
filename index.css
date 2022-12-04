@@ -31,12 +31,12 @@ body{
     font-family: 'Patrick Hand', cursive;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
     .topnav a {
       float: none;
       width: 100%;
     }
-  }
+}
 
 .fcontainer{
     display: flex;
