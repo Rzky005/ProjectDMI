@@ -1,0 +1,153 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.komen {
+    height: 50px;
+}
+
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: lightslategray;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navigation>li>a:hover{
+    color: yellow;
+}
+
+.active{
+    background-color: yellow;
+    padding: 10px;
+    color: #222 !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.shop{
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.content{
+    padding: 10px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer{
+    background-color: #21b673;
+    padding: 70px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    background-color: #ffff00;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
