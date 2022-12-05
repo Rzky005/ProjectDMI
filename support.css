@@ -25,71 +25,106 @@
 
 *,
 html,
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: 'Patrick Hand', cursive;
 }
 
-.komen {
+.fcontainer{ 
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    background-color: lightslategray; 
+} 
+ 
+.wrapper{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+    height: 60px; 
+    background-color: #222; 
+} 
+ 
+.brand{ 
+    display: flex; 
+    flex-direction: row; 
+    font-size: 25px; 
+    padding: 15px; 
+    text-transform: capitalize; 
+} 
+ 
+.navigation{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.navigation>li{ 
+    list-style-type: none; 
+    padding: 15px; 
+} 
+ 
+.navigation>li>a{ 
+    text-decoration: none; 
+    color: whitesmoke; 
+} 
+ 
+.navigation>li>a:hover{ 
+    color: yellow; 
+} 
+ 
+.active{ 
+    background-color: yellow; 
+    padding: 10px; 
+    color: #222 !important; 
+    border-radius: 5px; 
+    text-decoration: none; 
+} 
+ 
+.shop{ 
+    padding-right: 10px; 
+    list-style-type: none; 
+}
+
+
+.komentar {
+    padding: 30px;
+}
+
+.teks{
+    border: 10px;
+}
+
+.pp>span{
+    text-decoration: none;
+}
+
+.bnt{
+    text-decoration: none;
+    color: rgb(230, 167, 8);
+}
+
+.KOMEN {
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+}
+
+input{
+    height: 100px;
+    width: 300px;
+}
+
+.nama {
     height: 50px;
+    width: 200px;
 }
 
-.fcontainer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: lightslategray;
-}
-
-.wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-    background-color: #222;
-}
-
-.brand{
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    padding: 15px;
-    text-transform: capitalize;
-}
-
-.navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navigation>li{
-    list-style-type: none;
-    padding: 15px;
-}
-
-.navigation>li>a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.navigation>li>a:hover{
-    color: yellow;
-}
-
-.active{
-    background-color: yellow;
+.kirim>input {
     padding: 10px;
-    color: #222 !important;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.shop{
-    padding-right: 10px;
-    list-style-type: none;
+    margin: 15px;
 }
 
 .content{
